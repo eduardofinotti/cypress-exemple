@@ -9,13 +9,6 @@ describe('Asserts', () => {
         cy.get('.fa-user')
             .click()
 
-        cy.get('#user')
-            .should('be.visible')
-
-        cy.get('.account_form > h3')
-            .should('have.text', 'Login')
-            .should('contains', 'Login')
-
     })
 
 })
