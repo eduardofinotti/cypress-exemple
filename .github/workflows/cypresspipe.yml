@@ -23,8 +23,8 @@ jobs:
           nstall-command: npm install
           # Starts web server for E2E tests - replace with your own server invocation
           # https://docs.cypress.io/guides/continuous-integration/introduction#Boot-your-server
-          start: npx cypress run
-          wait-on: 'http://localhost:3000' # Waits for above
+          # start: npx cypress run
+          # wait-on: 'http://automationpratice.com.br/' # Waits for above
           # Records to Cypress Cloud 
           # https://docs.cypress.io/guides/cloud/projects#Set-up-a-project-to-record
           record: true
