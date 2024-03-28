@@ -8,7 +8,6 @@ describe('Asserts', () => {
 
         cy.get('.fa-user')
             .click()
-
     })
 
 })
