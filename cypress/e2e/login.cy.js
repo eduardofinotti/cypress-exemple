@@ -10,6 +10,7 @@ describe('template spec', () => {
 
     cy.get('#user')
       .should('be.visible')
+      .should('exist')
       .type('dudu@dudu.com')
   })
 })
